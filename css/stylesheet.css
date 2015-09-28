@@ -1,0 +1,148 @@
+/*
+Project Name: Relaxr
+Client: Relaxr NY Tech Startup
+Author: Jacek Rebkowski
+Developer @GA in LDN
+*/
+
+
+.cf:before,
+.cf:after {
+    content: " "; /* 1 */
+    display: table; /* 2 */
+}
+
+.cf:after {
+    clear: both;
+}
+
+/* This stops the boxes to break*/
+*{
+-moz-box-sizing: border-box; /* Firexfox */
+-webkit-box-sizing: border-box; /* Safari/Chrome/iOS/Android */
+box-sizing: border-box; /* IE */
+}
+.hero_img {
+  background: url(../img/header_bg.jpg) no-repeat center;
+  background-size: cover;
+  margin: 0;
+  padding-bottom: 300px;
+}
+body {
+font-family: 'Open Sans', sans-serif;
+
+}
+h1 {
+  color: white;
+  padding: 20px 0 0 100px;
+  text-align: left;
+  font-weight: 800;
+  font-size: 24px;
+  margin: 0;
+}
+h2 {
+  text-align: center;
+  color: white;
+  margin-top: 70px;
+  font-weight: 600;
+  font-size: 24px;
+}
+h3 {
+padding-left: 60px;
+  font-weight: 600;
+  font-size: 20px;
+  margin-top: 0;
+}
+.middle_top {
+
+  padding-left: 60px;
+  background-color: #E8E8E8;
+  font-weight: 300;
+  font-size: 13px;
+  color: #121212;
+  margin: 0;
+  padding: 100px;
+}
+ul {
+  margin-bottom: 0;
+}
+
+.middle_bottom {
+  background: url(../img/testimonial_bg.jpg) no-repeat center;
+  background-size: cover;
+  color: white;
+  font-weight: 300;
+  font-size: 18px;
+  font-style: italic;
+  text-align: center;
+  padding: 40px 190px 40px 190px;
+
+}
+.footer1 h1 {
+  background-color: #121212;
+  color: black;
+padding: 0;
+  text-align: center;
+  font-weight: 800;
+  font-size: 24px;
+}
+div {
+  background-color: #121212
+  text-align: center;
+}
+.topbutton {
+  background-color: #f9e42e;
+  border: 0;
+  color: #033048;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top:130px;
+  font-weight: 800;
+  border-radius: 5px;
+  font-size: 14px;
+  padding: 10px 38px 10px 38px;
+
+}
+.bottom {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  background-color: #f9e42e;
+}
+.bottombutton {
+  background-color: #033048;
+  color: white;
+  border: 0;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  font-weight: 800;
+  border-radius: 5px;
+  font-size: 14px;
+  padding: 10px 38px 10px 38px;
+}
+.footer1 {
+  background-color: #121212;
+  padding: 40px;
+
+}
+.social {
+text-align: center;
+padding-top: 20px;
+}
+
+
+.footer1 h1 {
+  color: #f9e42e;
+
+}
+footer {
+  color: white;
+  font-size: 10px;
+  text-align: center;
+  padding-top: 20px;
+}
+
+a {
+  padding: 0 50px 0 50px;
+}
